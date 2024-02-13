@@ -1,4 +1,5 @@
-zone "lab-net.lan" {
-type primary;
-file "/etc/bind/zones/db.lab-net.lan";
+zone "nyc3.example.com" {
+    type primary;
+    file "/etc/bind/zones/db.nyc3.example.com"; # zone file path
+
 };
