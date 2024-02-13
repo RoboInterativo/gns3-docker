@@ -5,10 +5,10 @@ $TTL    604800
               86400     ; Retry
             2419200     ; Expire
              604800 )   ; Negative Cache TTL
-;
+
+@	IN	NS	 ns1.nyc3.example.com.
 ; name servers - NS records
-     IN      NS      ns1.nyc3.example.com.
-     IN      NS      ns2.nyc3.example.com.
+
 
 ; name servers - A records
 ns1.nyc3.example.com.          IN      A       10.9.1.3
