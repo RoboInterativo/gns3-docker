@@ -12,7 +12,7 @@ RUN apt update && apt install -y \
 #Copy configuration files
 COPY configuration/named.conf.options /etc/bind/
 COPY configuration/named.conf.local /etc/bind/
-COPY configuration/db.lab-net.lan /etc/bind/zones/
+COPY configuration/db.nyc3.example.com /etc/bind/zones/
 
 # Expose Ports
 EXPOSE 53/tcp
